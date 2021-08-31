@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+.info {
+  background-color: rgb(240, 135, 37);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  height: 20px;
+}
+header {
+  position: sticky;
+  top: 0px;
+  /*position:fixed;*/
+  z-index: 1000;
+  display: inline-flexbox;
+  background-color: rgb(0, 0, 0);
+  background-image: url(../img/Navegacion.webp);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.color {
+  color: rgb(238, 189, 53);
+  text-transform: uppercase;
+}
+.color1 {
+  color: ivory;
+  text-transform: uppercase;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding: 10px;
+  color: cornsilk;
+  text-transform: uppercase;
+  margin: 30px;
+}
+
+/*Imagen Cheburek icono*/
+.icono {
+  width: 120px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.container {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(243, 125, 46);
+  position: relative;
+  height: 400px;
+}
+.caja1 {
+  height: 200px;
+  width: 200px;
+  padding: 15px;
+  border: 10px solid orange;
+  margin: 70px;
+  background-image: url(../img/paso1.png);
+  background-position: center;
+  background-size: cover;
+}
+.caja2 {
+  height: 200px;
+  width: 200px;
+  padding: 15px;
+  border: 10px solid orange;
+  margin: 70px;
+  background-image: url(../img/paso2.png);
+  background-position: center;
+  background-size: cover;
+}
+.caja3 {
+  height: 200px;
+  width: 200px;
+  padding: 15px;
+  border: 10px solid orange;
+  margin: 70px;
+  background-image: url(../img/Chebu.png);
+  background-position: center;
+  background-size: cover;
+}
+/*barra de mavegaion*/
+
+.banner {
+  background-color: black;
+  background-image: url(../img/Chebubanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+.parrafo{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    background-color:orange;
+    text-align: center;
+    height: 30px;
+}
